@@ -1,0 +1,24 @@
+{
+    "informations": [
+        {
+            "title": "artists",
+            "number": 13,
+            "id": 1
+        },
+        {
+            "title": "images",
+            "number": 37,
+            "id": 2
+        },
+        {
+            "title": "users",
+            "number": 89,
+            "id": 3
+        },
+        {
+            "title": "downloads",
+            "number": 76,
+            "id": 4
+        }
+    ]
+}
