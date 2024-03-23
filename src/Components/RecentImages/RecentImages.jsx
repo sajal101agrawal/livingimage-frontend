@@ -48,7 +48,7 @@ const RecentImages = () => {
     }
 
     return (
-        <div className="flex justify-content-center" style={{ marginTop: "50px", padding: '50px' }}>
+        <div className={styles["recent-images-container"] + " " +"flex justify-content-center"} style={{ marginTop: "50px", padding: '50px' }}>
             <ContainerCard>
                 <div className={`${styles["gallery-setting"]} flex justify-content-between align-items-center`}>
                     <h1>All images</h1>

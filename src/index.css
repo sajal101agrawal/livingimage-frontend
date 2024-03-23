@@ -11,6 +11,10 @@
 body {
     background: var(--dark-900);
 }
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
 
 /* my own classes */
 .flex {
@@ -31,3 +35,4 @@ body {
 .justify-content-between {
     justify-content: space-between;
 }
+

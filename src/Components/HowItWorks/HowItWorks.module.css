@@ -1,3 +1,122 @@
 .section {
     min-height: 100vh;
+    scroll-snap-align: start;
+}
+.titleContainer{
+    color: var(--green-white-100);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 100px;
+    font-weight: 700;
+}
+.h2-cont{
+    width: 80vw;
+}
+.titleContainer h2{
+    text-align: left;
+}
+.how-it-works{
+    position: relative;
+}
+.how-it-works-left{
+    height: 100vh;
+    padding: 10px;    
+    position: absolute;
+    left: 10vw;
+}
+.top-line{
+    height: 80px;
+    background-color: aliceblue;
+    width: 5px;
+    position: absolute;
+    top: 0;
+}
+.bottom-line{
+    height: calc(100vh - 160px);
+    background-color: aliceblue;
+    width: 5px;
+    position: absolute;
+    bottom: 0;
+}
+.blur-circle{
+    position: absolute;
+    top: 40%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 130px;
+    background-color: var(--green-400);
+    filter: blur(170px);
+}
+.branch{
+    position: absolute;
+    top: 40%;
+}
+.item-between-line{
+    position: absolute;
+    top: 80px;
+    height: 80px;
+    width: 30px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blur-circle-between{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    background-color: cornflowerblue;
+    filter: blur(20px);
+    position: absolute;
+}
+.item-between-line img{
+    width: 30px;
+    position: absolute;
+    background: white;
+}
+.content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.content-box{
+    border-top-left-radius: 20px;
+}
+.content-box-1{
+    top: 200px;
+    background-color: #181224
+}
+.content-box-2{
+    background-color: #44169c;;
+}
+.content-box-3{
+    top: 200vh;
+    background-color: #181224
+}
+.content{
+    background-image: url("./../../assets/other-images/how-it-works-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: luminosity;
+    opacity: 0.1;
+    width: 80vw;
+}
+.content-1{
+    height: calc(100vh - 200px);
+}
+.content-2{
+    height: calc(100vh - 220px);
+}
+.content-3{
+    height: calc(100vh - 240px);
 }

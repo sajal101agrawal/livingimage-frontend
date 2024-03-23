@@ -1,0 +1,13 @@
+.footer{
+    position: relative;
+    scroll-snap-align: start;
+}
+.footer-end-text{
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#C3EFC08b, #c3efc03d,#c3efc012, #C3EFC000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16vw;
+    font-weight: 400;
+    text-align: center;
+}

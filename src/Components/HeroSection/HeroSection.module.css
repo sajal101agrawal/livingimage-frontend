@@ -1,7 +1,8 @@
 .header {
     position: relative;
-    height: 720px;
+    height: 100vh;
     overflow: hidden;
+    scroll-snap-align: center;
 }
 .blur-circle-shape {
     position: absolute;
